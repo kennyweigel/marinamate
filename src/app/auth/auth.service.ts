@@ -52,6 +52,7 @@ export class AuthService {
   }
 
   isLoggedIn() {
-    return this.authSubject.asObservable();
+    //return this.authSubject.asObservable();
+    return this.authSubject;
   }
 }
